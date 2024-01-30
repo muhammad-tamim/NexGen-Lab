@@ -13,7 +13,7 @@ const Header = () => {
         <>
             <Navbar expand="lg" className="bg-body-tertiary">
                 <Container fluid>
-                    <span><Navbar.Brand href="#">NexGen Lab</Navbar.Brand></span>
+                    <span><Navbar.Brand href="../../../index.html">NexGen Lab</Navbar.Brand></span>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
@@ -23,7 +23,8 @@ const Header = () => {
                         >
                             <Nav.Link href="#action1">Home</Nav.Link>
                             <Nav.Link href="#action2">About</Nav.Link>
-                            <Nav.Link href="#action3">Service</Nav.Link>
+                            <Nav.Link href="#service">Service</Nav.Link>
+                            {/* <Nav.Link href="#our-team">Our Team</Nav.Link> */}
                             <Nav.Link href="#action4">Contact</Nav.Link>
                         </Nav>
                         <Form className="d-flex">

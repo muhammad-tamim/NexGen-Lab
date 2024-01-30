@@ -4,6 +4,9 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Nav/header'
 import Slider from './components/slider/Slider'
+import Service from './components/service/Service'
+import Footer from './components/footer/footer'
+import OurTeam from './components/our-team/Our-team'
 {
   /* The following line can be included in your src/index.js or App.js file */
 }
@@ -16,6 +19,9 @@ function App() {
     <>
       <Header></Header>
       <Slider></Slider>
+      <Service></Service>
+      <OurTeam></OurTeam>
+      <Footer></Footer>
     </>
   )
 }

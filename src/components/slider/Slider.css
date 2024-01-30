@@ -3,6 +3,9 @@
     display: grid;
     grid-template-columns: 40% 60%;
     margin-top: 20px;
+    height: 450px;
+    border-radius: 10px;
+    padding: 15px;
 }
 
 .first-section img {
@@ -33,12 +36,25 @@
 @media only screen and (max-width: 600px) {
     .first-section {
         grid-template-columns: 1fr;
-        border-radius: 10px;
-        padding: 15px;
+        height: 730px;
     }
 
     .first-section img {
         margin-top: 30px;
+        /* background-color: lightblue; */
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .first-section h1 {
+        font-size: 50px;
+        margin-top: 30%;
+        /* grid-template-columns: 1fr;
+        height: 730px; */
+    }
+
+    .first-section img {
+        margin-top: 30%;
         /* background-color: lightblue; */
     }
 }

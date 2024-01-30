@@ -24,9 +24,10 @@
     transition: background 0.5s, transform 0.5s;
 }
 
-.services-list div i {
+.icon {
     font-size: 40px;
-    margin-bottom: 20px;
+    padding: 0;
+    /* margin-bottom: 20px; */
 }
 
 .services-list div h2 {
@@ -46,9 +47,16 @@
     color: rgb(173, 89, 238);
 }
 
-.services-list div:hover {
+.services:hover {
     background: #ff004f;
     transform: translateY(-10px);
     color: #ffffff;
     border-left: 7px solid #6a00ff;
 }
+
+/* .services:hover {
+    background: #ff004f;
+    transform: translateY(-10px);
+    color: #ffffff;
+    border-left: 7px solid #6a00ff;
+} */

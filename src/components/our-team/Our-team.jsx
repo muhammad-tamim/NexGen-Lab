@@ -8,13 +8,13 @@ const OurTeam = () => {
                     <h1 className="sub-title">Our Team</h1>
                     <div className="developer-list">
                         <div>
-                            <img src="../../../public/vite.svg" alt="" />
+                            <img src="../../../public/images/Muhammad-Tamim.jpeg" alt="" />
                             <h2>Muhammad Tamim</h2>
                             <p>Muhammad Tamim, a proficient web developer and SEO expert, dedicated to creating impactful online experiences and optimizing digital content for maximum visibility and success.</p>
                             <a href="#">Contact</a>
                         </div>
                         <div>
-                            <img src="../../../public/vite.svg" alt="" />
+                            <img src="../../../public/images/saikat.PNG" alt="" />
                             <h2>Saddam Hussain Saikat</h2>
                             <p>Saddam Hussain Saikat, a web developer with a passion for transforming ideas into interactive and innovative digital experiences.</p>
                             <a href="#">Contact</a>

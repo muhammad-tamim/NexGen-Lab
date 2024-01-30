@@ -36,7 +36,7 @@
 @media only screen and (max-width: 600px) {
     .first-section {
         grid-template-columns: 1fr;
-        height: 730px;
+        height: 816px;
     }
 
     .first-section img {

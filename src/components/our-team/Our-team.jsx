@@ -20,7 +20,7 @@ const OurTeam = () => {
                             <a href="#">Contact</a>
                         </div>
                         <div>
-                            <img src="../../../public/images/mehedi.jpg" alt="" />
+                            <img src="/public/images/mehedi.jpg" alt="" />
                             <h2>Mehedi</h2>
                             <p>Mehedi, an adept Android and iOS apps developer, committed to bringing ideas to life through seamless and user-centric mobile applications.</p>
                             <a href="#">Contact</a>

@@ -23,8 +23,8 @@ const Header = () => {
                         >
                             <Nav.Link href="#action1">Home</Nav.Link>
                             <Nav.Link href="#action2">About</Nav.Link>
-                            <Nav.Link href="#action2">Service</Nav.Link>
-                            <Nav.Link href="#action2">Contact</Nav.Link>
+                            <Nav.Link href="#action3">Service</Nav.Link>
+                            <Nav.Link href="#action4">Contact</Nav.Link>
                         </Nav>
                         <Form className="d-flex">
                             <Form.Control

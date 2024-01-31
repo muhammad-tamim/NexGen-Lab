@@ -7,6 +7,7 @@ import Slider from './components/slider/Slider'
 import Service from './components/service/Service'
 import Footer from './components/footer/footer'
 import OurTeam from './components/our-team/Our-team'
+import About from './components/about/About'
 {
   /* The following line can be included in your src/index.js or App.js file */
 }
@@ -19,6 +20,7 @@ function App() {
     <>
       <Header></Header>
       <Slider></Slider>
+      <About></About>
       <Service></Service>
       <OurTeam></OurTeam>
       <Footer></Footer>

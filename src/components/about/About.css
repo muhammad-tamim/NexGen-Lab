@@ -1,0 +1,48 @@
+.about {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    text-align: left;
+}
+
+.about img {
+    height: 100%;
+    width: 100%;
+}
+
+.about-info h1 {
+    font-size: 70px;
+    margin-top: 70px;
+    color: #f84f4f;
+}
+
+.about-info p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.about-info a {
+    background: #f64242;
+    padding: 12px 22px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.about-info a:hover {
+    background-color: #f91f1f;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .about {
+        grid-template-columns: 1fr;
+    }
+
+    .about img {
+        margin-top: 30px;
+    }
+
+    .about-info h1 {
+        margin-top: 0px;
+    }
+}

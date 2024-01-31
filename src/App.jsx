@@ -8,6 +8,7 @@ import Service from './components/service/Service'
 import Footer from './components/footer/footer'
 import OurTeam from './components/our-team/Our-team'
 import About from './components/about/About'
+import Contact from './components/contact/Contact'
 {
   /* The following line can be included in your src/index.js or App.js file */
 }
@@ -23,6 +24,7 @@ function App() {
       <About></About>
       <Service></Service>
       <OurTeam></OurTeam>
+      <Contact></Contact>
       <Footer></Footer>
     </>
   )

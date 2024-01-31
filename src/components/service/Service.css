@@ -22,6 +22,7 @@
     font-weight: 300;
     border-radius: 7px;
     transition: background 0.5s, transform 0.5s;
+    box-shadow: 5px 5px 5px 5px rgb(192, 197, 199);
 }
 
 .icon {
@@ -52,6 +53,7 @@
     transform: translateY(-10px);
     color: #ffffff;
     border-left: 7px solid #6a00ff;
+    box-shadow: none;
 }
 
 @media only screen and (max-width: 600px) {

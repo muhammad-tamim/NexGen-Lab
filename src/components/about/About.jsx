@@ -1,12 +1,13 @@
-import React from 'react';
+// import React from 'react';
 import './About.css'
+import aboutGif from '../../../public/images/about-us.gif'
 
 const About = () => {
     return (
         <div>
-            <section className="about">
+            <section className="about" id='about'>
                 <div className="about-img">
-                    <img src="../../../public/images/teamwork-animated-picture-removebg.png" alt="" />
+                    <img src={aboutGif} alt="" />
                 </div>
                 <div className="about-info">
                     <h1>About Us</h1>

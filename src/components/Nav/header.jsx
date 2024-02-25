@@ -12,7 +12,7 @@ import './header.css'
 const Header = () => {
     return (
         <>
-            <div id="home" className='position-fixed fixed-top'>
+            <div className='position-fixed fixed-top home'>
                 <Navbar expand="lg" className="bg-body-tertiary">
                     <Container fluid>
                         <span><Navbar.Brand href="../../../index.html">NexGen Lab</Navbar.Brand></span>
